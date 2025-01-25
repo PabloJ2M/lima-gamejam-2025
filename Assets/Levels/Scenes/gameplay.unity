@@ -240,7 +240,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _force: 10
-  coyoteTime: 0.2
+  _coyoteTime: 0.2
   _groundMask:
     serializedVersion: 2
     m_Bits: 1024
@@ -359,7 +359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52040eccf87ce3f4aa79bd662d68c553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _force: 0
+  _force: 10
 --- !u!1001 &149366153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2253,7 +2253,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 76071e7066465e542ba92e1b65f7876f, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2387,7 +2387,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 76071e7066465e542ba92e1b65f7876f, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
