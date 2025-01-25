@@ -11,6 +11,10 @@ namespace Player.Controller
         private Rigidbody2D _body;
         private int _input;
 
+        private void Start()
+        {
+            Time.timeScale = 0;//En caso no ser lo que se pide borrar esta linea
+        }
         public bool HasStartedMoving { get; private set; } = false; //booleano para ver si se empezo a mover o no el jugador
         private void Awake() => _body = GetComponent<Rigidbody2D>();
         private void Update()
@@ -19,7 +23,9 @@ namespace Player.Controller
 
             if (!HasStartedMoving && _input != 0)
             {
+                Time.timeScale = 1;//En caso no ser lo que se pide borrar esta linea
                 HasStartedMoving = true; //se vuelve true el booleano cuando detecta que _input (que es un int) es mayor a 0, osea cuando se usa una vez
+                
             }
         }
 
