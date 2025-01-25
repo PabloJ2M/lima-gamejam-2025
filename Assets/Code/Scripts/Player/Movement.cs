@@ -7,12 +7,11 @@ namespace Player.Controller
         [SerializeField] private float _speed = 10;
         [SerializeField] private float _accelRate = 25;
 
+        public float Speed => _speed;
         private Rigidbody2D _body;
         private int _input;
 
         private void Awake() => _body = GetComponent<Rigidbody2D>();
-
-        //lectura de input horizontal => -1 | 0 | 1
         private void Update() => _input = (int)Input.GetAxisRaw("Horizontal");
 
         private void FixedUpdate()
