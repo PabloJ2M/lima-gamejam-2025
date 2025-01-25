@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1518110206658714493}
   m_Layer: 10
   m_Name: bubble
-  m_TagString: Respawn
+  m_TagString: Bubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

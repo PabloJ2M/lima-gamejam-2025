@@ -17,6 +17,7 @@ namespace Player.Controller
         private void Awake() => _character = GetComponent<Character2D>();
         private void Update()
         {
+            _character.animator.SetInteger("Gravity", (int)_character.body.velocityY);
             _isGrounded = Physics2D.BoxCast(transform.position, _size * Vector2.one, 0, Vector2.down, _distance, _groundMask);
             _coyoteJump = _character.body.velocity.y <= 0 && _fallTime < _coyoteTime;
             _fallTime = _isGrounded ? 0 : _fallTime += Time.deltaTime;

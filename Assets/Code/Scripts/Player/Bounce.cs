@@ -15,11 +15,10 @@ namespace Player.Controller
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if (!collision.collider.CompareTag("Respawn")) return;
+            if (!collision.collider.CompareTag("Bubble")) return;
             Vector2 normal = collision.contacts[0].normal;
 
             _body.AddForce(normal * _force * _lastVelocity.magnitude, ForceMode2D.Impulse);
-            _body.velocity = Vector2.ClampMagnitude(_body.velocity, _movement.Speed);
             Destroy(collision.gameObject, 0.1f);
         }
     }

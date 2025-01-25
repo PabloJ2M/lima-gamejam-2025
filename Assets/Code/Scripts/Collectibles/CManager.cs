@@ -1,48 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class CManager : MonoBehaviour //Lo separe en 2 para que sea mas sencillo para mi y no matarme
+public class CManager : SingletonBasic<CManager>
 {
-    public static CManager instance;
-
     [SerializeField] private TextMeshProUGUI cText;
+    private int _count;
 
-    [SerializeField] private float duration; //cuanto tiempo dura el mensaje
-
-    private bool[] cCollected = new bool[3]; //la cantidad de coleccionables que tiene
-
-    private void Awake()
+    private void Start() => showMessage($"Tienes: {_count} Colecionables");
+    public void collectCollectible()
     {
-        instance = this;
-    }
-
-    public void collectCollectible(int collectibleID)
-    {
-        if (collectibleID < 0 || collectibleID >= cCollected.Length || cCollected[collectibleID]) return;
-        {
-            cCollected[collectibleID] = true;
-
-            showMessage($"Collectible {collectibleID + 1} found"); //mensaje que dice
-        }
+        _count++;
+        Start();
     }
 
     private void showMessage(string message)
     {
         cText.text = message;
-
-        cText.gameObject.SetActive(true);
-
-        CancelInvoke(nameof(cancelMessage));
-
-        Invoke(nameof(cancelMessage), duration);
-    }
-
-    private void cancelMessage()
-    {
-
-        cText?.gameObject.SetActive(false);
-
     }
 }

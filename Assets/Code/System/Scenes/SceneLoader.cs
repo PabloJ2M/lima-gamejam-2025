@@ -6,6 +6,8 @@ namespace UnityEngine.SceneManagement
         [SerializeField] protected string _scenePath;
         public string ScenePath { get => _scenePath; set => _scenePath = value; }
 
+        [ContextMenu("Current Level")]
+        public void CurrentLevel() => SceneController.Instance.SwipeScene(SceneManager.GetActiveScene().name);
 
         [ContextMenu("Cut Scene")]
         public void CutScene() => SceneController.Instance?.CutScene(_scenePath);
