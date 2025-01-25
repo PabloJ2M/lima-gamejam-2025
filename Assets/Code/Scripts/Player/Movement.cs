@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Player.Controller
 {
@@ -11,18 +12,9 @@ namespace Player.Controller
         private Rigidbody2D _body;
         private int _input;
 
-        public bool HasStartedMoving { get; private set; } = false; //booleano para ver si se empezo a mover o no el jugador
+        public bool HasStartedMoving { get; private set; }
         private void Awake() => _body = GetComponent<Rigidbody2D>();
-        private void Update()
-        {
-            _input = (int)Input.GetAxisRaw("Horizontal");
-
-            if (!HasStartedMoving && _input != 0)
-            {
-                HasStartedMoving = true; //se vuelve true el booleano cuando detecta que _input (que es un int) es mayor a 0, osea cuando se usa una vez
-            }
-        }
-
+        private void OnMove(InputValue value) { _input = (int)value.Get<Vector2>().x; if (!HasStartedMoving && _input != 0) HasStartedMoving = true; }
 
         private void FixedUpdate()
         {
