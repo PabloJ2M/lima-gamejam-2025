@@ -19,6 +19,7 @@ namespace Player.Controller
         private void OnMove(InputValue value)
         {
             _input = value.Get<Vector2>();
+            _character.animator.SetFloat("Speed", _input.x);
             if (!HasStartedMoving && _input.x != 0) { HasStartedMoving = true; Time.timeScale = 1; }
         }
 
