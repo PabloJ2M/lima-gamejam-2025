@@ -13,8 +13,14 @@ namespace Player.Controller
         private int _input;
 
         public bool HasStartedMoving { get; private set; }
+
         private void Awake() => _body = GetComponent<Rigidbody2D>();
-        private void OnMove(InputValue value) { _input = (int)value.Get<Vector2>().x; if (!HasStartedMoving && _input != 0) HasStartedMoving = true; }
+        private void Start() => Time.timeScale = 0;
+        private void OnMove(InputValue value)
+        {
+            _input = (int)value.Get<Vector2>().x;
+            if (!HasStartedMoving && _input != 0) { HasStartedMoving = true; Time.timeScale = 1; }
+        }
 
         private void FixedUpdate()
         {
