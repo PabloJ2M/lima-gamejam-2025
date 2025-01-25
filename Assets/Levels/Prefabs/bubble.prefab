@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 1765814758293366897}
   - component: {fileID: 7362454661922457127}
   - component: {fileID: 1518110206658714493}
+  - component: {fileID: 3220653966633002164}
+  - component: {fileID: 1120582400885852454}
+  - component: {fileID: 1645402739028051943}
   m_Layer: 10
   m_Name: bubble
   m_TagString: Bubble
@@ -76,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cb863e14223c8de4ea549373e2a314b2, type: 3}
+  m_Sprite: {fileID: 1666325870644729899, guid: 34ddf287208f1994c8581bb48712b2e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -133,3 +136,62 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!111 &3220653966633002164
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7720960430876844306}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 003f3293a58eeed428d31421a892bcbc, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 003f3293a58eeed428d31421a892bcbc, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
+--- !u!114 &1120582400885852454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7720960430876844306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f63079e6b8b51043bff8c20b0a1b404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tag: Player
+  _interaction: 0
+  _onCollide:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1645402739028051943}
+        m_TargetAssemblyTypeName: Events.Gameplay.LegacyAnimation, Assembly-CSharp
+        m_MethodName: StartAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1645402739028051943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7720960430876844306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd1cd87e9f441f04c9c302e3fa1b50de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _destroyOnComplete: 1

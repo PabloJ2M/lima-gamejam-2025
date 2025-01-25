@@ -20,5 +20,8 @@ namespace UnityEngine.SceneManagement
 
         [ContextMenu("Remove Scene")]
         public void RemoveScene() => SceneController.Instance?.RemoveScene(_scenePath);
+
+        [ContextMenu("Close Game")]
+        public void CloseGame() => SceneController.Instance?.SwipeScene(string.Empty);
     }
 }
