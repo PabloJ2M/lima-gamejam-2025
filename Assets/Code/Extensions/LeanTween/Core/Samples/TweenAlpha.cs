@@ -11,7 +11,6 @@ namespace UnityEngine.Animations
         protected override void OnComplete() { base.OnComplete(); _alpha = _tweenCore.IsEnabled ? 1f : 0f; }
         protected override void OnPerformePlay(bool value)
         {
-            if (_tweenCore.IsEnabled == value) return;
             CancelTween();
 
             //create tween animation

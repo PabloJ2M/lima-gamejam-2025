@@ -15,7 +15,8 @@ namespace UnityEngine.Animations
             if (!_tweenCore.IsEnabled && _modifyInteraction)
                 _canvasGroup.interactable = _canvasGroup.blocksRaycasts = false;
         }
-        
+
+        protected override void OnPerformePlay(bool value) { if (_tweenCore.IsEnabled != value) base.OnPerformePlay(value); }
         protected override void OnUpdate(float value) { base.OnUpdate(value); _canvasGroup.alpha = value; }
         protected override void OnComplete()
         {

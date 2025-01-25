@@ -17,7 +17,7 @@ namespace Player.Controller
         private void OnCollisionEnter2D(Collision2D collision)
         {
             if (!collision.collider.CompareTag("Respawn")) return;
-            Vector2 normal = collision.contacts[0].normal; print(_lastVelocity);
+            Vector2 normal = collision.contacts[0].normal;
             Vector2 reflect = Vector2.Reflect(_lastVelocity, normal);
 
             _body.AddForce(reflect * _force, ForceMode2D.Impulse);

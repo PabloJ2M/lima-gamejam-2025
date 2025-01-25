@@ -25,7 +25,7 @@ namespace Player.Controller
             if (_input != 0) transform.localScale = new Vector3(_input, 1, 1);
 
             //aplicacion de fuerza
-            if (movement != 0) _body.AddForce(movement * Vector2.right, ForceMode2D.Force);
+            if (_input != 0) _body.AddForce(movement * Vector2.right, ForceMode2D.Force);
         }
     }
 }
