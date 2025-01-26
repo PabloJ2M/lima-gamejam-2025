@@ -13,11 +13,17 @@ namespace UnityEngine.SceneManagement
         private bool _change;
 
         protected override void Awake() { base.Awake(); _canvasGroup = GetComponent<CanvasGroup>(); }
-        private void Start() { _change = onComplete != null; _alpha = _change ? 0 : 1; if (_change) FadeIn(); else FadeOut(); }
+        private void Start()
+        {
+            _change = onComplete != null;
+            _canvasGroup.alpha = _alpha = _change ? 0 : 1;
+            if (_change) FadeIn(); else FadeOut();
+            print(_change);
+        }
         protected override void OnUpdate(float value) { base.OnUpdate(value); onUpdate?.Invoke(value); _canvasGroup.alpha = value; }
         protected override void OnComplete()
         {
-            if (!_change) Destroy(gameObject);
+            if (!_change) Destroy(gameObject); print("destroy");
             onComplete?.Invoke();
             base.OnComplete();
         }
