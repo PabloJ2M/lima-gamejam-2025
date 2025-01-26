@@ -146,6 +146,28 @@
                 },
                 {
                     "name": "",
+                    "id": "b084167d-e803-4e19-bf06-074ce892fb7c",
+                    "path": "<Joystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be3a9be6-3d7a-422d-bba6-4733752d89ef",
+                    "path": "<HID::ShanWan USB WirelessGamepad >/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "e1b3af8a-d0f1-4b62-a5e1-dd840555bdfb",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -159,6 +181,17 @@
                     "name": "",
                     "id": "75dc7b14-136b-4f48-aae9-4703d2d310e4",
                     "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2bfe1f3b-57e8-431e-ae2f-67d0c65db631",
+                    "path": "<HID::ShanWan USB WirelessGamepad >/button3",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
