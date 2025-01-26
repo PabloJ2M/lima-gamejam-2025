@@ -313,7 +313,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3529462711880336710, guid: 5533a78b1552c564ca07f94266dc0b04, type: 3}
       propertyPath: _scenePath
-      value: Assets/Levels/Scenes/main menu.unity
+      value: Assets/Scene/nivel6.unity
       objectReference: {fileID: 0}
     - target: {fileID: 6633636288506788060, guid: 5533a78b1552c564ca07f94266dc0b04, type: 3}
       propertyPath: m_Name
