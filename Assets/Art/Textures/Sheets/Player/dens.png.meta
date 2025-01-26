@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: 3b0ac06ceb7c7b345a20c1c19890916d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7759463593656782407
+    second: dens_0
+  - first:
+      213: -6537065294415229961
+    second: dens_1
+  - first:
+      213: -7825926681094176734
+    second: dens_2
+  - first:
+      213: 1510825001707610891
+    second: dens_3
+  - first:
+      213: 3147368311809265970
+    second: dens_4
+  - first:
+      213: -3592750143706726794
+    second: dens_5
+  - first:
+      213: -8704375687600000576
+    second: dens_6
+  - first:
+      213: 5716659528890901373
+    second: dens_7
+  - first:
+      213: 6259690134054502673
+    second: dens_8
+  - first:
+      213: 6125154697369626874
+    second: dens_9
+  - first:
+      213: 6501786056049651229
+    second: dens_10
+  - first:
+      213: -8970649728831915368
+    second: dens_11
+  - first:
+      213: -4441903796338309718
+    second: dens_12
+  - first:
+      213: -3060658350959461336
+    second: dens_13
+  - first:
+      213: -7315454231719715173
+    second: dens_14
+  - first:
+      213: 4701306621121225962
+    second: dens_15
+  - first:
+      213: 8345058049040404766
+    second: dens_16
+  - first:
+      213: -4835553111872242414
+    second: dens_17
+  - first:
+      213: -4076554518546036195
+    second: dens_18
+  - first:
+      213: 8199578424938733249
+    second: dens_19
+  - first:
+      213: -4338384282869662601
+    second: dens_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dens_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e0d7be6072fab60800000000000000
+      internalID: 7759463593656782407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 224
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb88d4efbda745a0800000000000000
+      internalID: -6537065294415229961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 224
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2204127a529b46390800000000000000
+      internalID: -7825926681094176734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 224
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03af88955787f410800000000000000
+      internalID: 1510825001707610891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 224
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23156baddc2bdab20800000000000000
+      internalID: 3147368311809265970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e70ad87ccf32ec0800000000000000
+      internalID: -3592750143706726794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_6
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 168
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c13e0d0e68d33780800000000000000
+      internalID: -8704375687600000576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 168
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73e469ad87a55f40800000000000000
+      internalID: 5716659528890901373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_8
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 168
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111065cf203eed650800000000000000
+      internalID: 6259690134054502673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 168
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8280baebbe00550800000000000000
+      internalID: 6125154697369626874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e6d6458fbfa3a50800000000000000
+      internalID: 6501786056049651229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_11
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 112
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89af484a999d18380800000000000000
+      internalID: -8970649728831915368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_12
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 112
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5cbcc08003b52c0800000000000000
+      internalID: -4441903796338309718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 112
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c7a34227b5685d0800000000000000
+      internalID: -3060658350959461336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_14
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 112
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ed7bb92294a7a90800000000000000
+      internalID: -7315454231719715173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae46f1c96756e3140800000000000000
+      internalID: 4701306621121225962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_16
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 56
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e115113e41a9fc370800000000000000
+      internalID: 8345058049040404766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 56
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21df15a801aa4ecb0800000000000000
+      internalID: -4835553111872242414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_18
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 56
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1acc8e834b2d67c0800000000000000
+      internalID: -4076554518546036195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_19
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 56
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce1e6e5221cac170800000000000000
+      internalID: 8199578424938733249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dens_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 62
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c7a600b76fac3c0800000000000000
+      internalID: -4338384282869662601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 334cec24de49f2e4db24abbf59f46f2c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dens_0: 7759463593656782407
+      dens_1: -6537065294415229961
+      dens_10: 6501786056049651229
+      dens_11: -8970649728831915368
+      dens_12: -4441903796338309718
+      dens_13: -3060658350959461336
+      dens_14: -7315454231719715173
+      dens_15: 4701306621121225962
+      dens_16: 8345058049040404766
+      dens_17: -4835553111872242414
+      dens_18: -4076554518546036195
+      dens_19: 8199578424938733249
+      dens_2: -7825926681094176734
+      dens_20: -4338384282869662601
+      dens_3: 1510825001707610891
+      dens_4: 3147368311809265970
+      dens_5: -3592750143706726794
+      dens_6: -8704375687600000576
+      dens_7: 5716659528890901373
+      dens_8: 6259690134054502673
+      dens_9: 6125154697369626874
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

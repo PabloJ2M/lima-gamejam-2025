@@ -1,7 +1,7 @@
 namespace UnityEngine.Audio
 {
     [RequireComponent(typeof(AudioSource))]
-    public class AudioManager : Singleton<AudioManager>
+    public class AudioManager : SingletonComplex<AudioManager>
     {
         [SerializeField] private AudioSource _effects;
         private AudioMixer _mixer;
