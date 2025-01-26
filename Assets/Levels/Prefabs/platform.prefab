@@ -149,6 +149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToDestroy: 0.5
   timeToRecovery: 10
+  initialBlinkInterval: 0.05
+  minBlinkInterval: 0.1
 --- !u!251 &360949637154577066
 PlatformEffector2D:
   m_ObjectHideFlags: 0
