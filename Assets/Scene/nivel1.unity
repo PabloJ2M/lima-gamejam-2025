@@ -1130,7 +1130,7 @@ MonoBehaviour:
   _startDisable: 1
   _playOnAwake: 1
   _isLoop: 0
-  _ignoreTimeScale: 0
+  _ignoreTimeScale: 1
 --- !u!114 &645036671
 MonoBehaviour:
   m_ObjectHideFlags: 0
