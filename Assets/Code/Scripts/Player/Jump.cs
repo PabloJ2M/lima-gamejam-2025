@@ -28,6 +28,7 @@ namespace Player.Controller
 
         private void OnJump()
         {
+            if (!_character.IsEnabled) return;
             if (!_isGrounded && !_coyoteJump && !_secondJump) return;
 
             _character.body.velocityY = 0;

@@ -98,9 +98,9 @@ MonoBehaviour:
   _onCollide:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5935322288510920285}
-        m_TargetAssemblyTypeName: UnityEngine.SceneManagement.SceneLoader, Assembly-CSharp
-        m_MethodName: CurrentLevel
+      - m_Target: {fileID: 2031394213869228099}
+        m_TargetAssemblyTypeName: Events.Interact.Delay, Assembly-CSharp
+        m_MethodName: PlatDefault
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -131,7 +131,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5935322288510920285}
         m_TargetAssemblyTypeName: UnityEngine.SceneManagement.SceneLoader, Assembly-CSharp
-        m_MethodName: SwipeScene
+        m_MethodName: CurrentLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

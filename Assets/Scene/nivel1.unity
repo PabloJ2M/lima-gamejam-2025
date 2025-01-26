@@ -1371,9 +1371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31aa941857fb9f5419d7b2b3e6b43225, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: {fileID: 816705863}
-  movement: {fileID: 1092206374}
-  isCounting: 0
+  _timer: {fileID: 0}
 --- !u!114 &732327501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2260,17 +2258,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31592d0e679928d45b7800403fee3dec, type: 3}
---- !u!114 &1092206374 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3647549131679121379, guid: 31592d0e679928d45b7800403fee3dec, type: 3}
-  m_PrefabInstance: {fileID: 1092206373}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da58c3de9ccd7ae46adf441941b73610, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1110625594
 GameObject:
   m_ObjectHideFlags: 0
@@ -5788,7 +5775,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 780061324265485394, guid: 026fb88db9d84204881f48cc1319f7c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 780061324265485394, guid: 026fb88db9d84204881f48cc1319f7c2, type: 3}
       propertyPath: m_LocalPosition.z

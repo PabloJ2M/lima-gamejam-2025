@@ -15,6 +15,8 @@ namespace Player.Controller
         private void Awake() => _character = GetComponent<Character2D>();
         private void OnMove(InputValue value)
         {
+            if (!_character.IsEnabled) return;
+
             _input = value.Get<Vector2>();
             _character.animator.SetFloat("Speed", _input.x);
             Timer.Instance.HasStarted = true;
@@ -22,6 +24,8 @@ namespace Player.Controller
 
         private void FixedUpdate()
         {
+            if (!_character.IsEnabled) _input.x = 0;
+
             //calculo de movimiento
             float targetSpeed = _input.x * _speed;
             float speedDif = targetSpeed - _character.body.velocity.x;
