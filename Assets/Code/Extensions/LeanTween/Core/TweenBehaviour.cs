@@ -5,6 +5,7 @@ namespace UnityEngine.Animations
     {
         [SerializeField] protected AnimationCurve _animationCurve = new(new Keyframe(0f, 0f), new Keyframe(1f, 1f));
 
+        public TweenCore Core => _tweenCore;
         protected TweenCore _tweenCore;
         protected GameObject _self;
         protected int _tweenID = -1;

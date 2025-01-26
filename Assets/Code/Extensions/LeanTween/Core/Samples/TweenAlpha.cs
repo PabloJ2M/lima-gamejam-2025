@@ -4,6 +4,7 @@ namespace UnityEngine.Animations
     {
         protected float _alpha;
         
+        public void ResetValue() => _alpha = 0f;
         public void FadeIn() => _tweenCore?.Play(true);
         public void FadeOut() => _tweenCore?.Play(false);
 
