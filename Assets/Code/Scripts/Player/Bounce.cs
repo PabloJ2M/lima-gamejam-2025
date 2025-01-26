@@ -18,6 +18,7 @@ namespace Player.Controller
             Vector2 normal = collision.contacts[0].normal;
 
             _body.AddForce(normal * _force * _lastVelocity.magnitude, ForceMode2D.Impulse);
+            _body.velocity = Vector2.ClampMagnitude(_body.velocity, _force);
         }
     }
 }
