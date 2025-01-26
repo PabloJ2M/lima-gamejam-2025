@@ -18,8 +18,8 @@ namespace Environment
 
         private void Awake() { render = GetComponent<SpriteRenderer>(); shape = GetComponent<Collider2D>(); }
         private void Start() { _destroyDelay = new(timeToDestroy); _recoveryDelay = new(timeToRecovery); }
-        private void OnCollisionEnter2D(Collision2D collision) { if (_effect == null) _effect = StartCoroutine(DestroyItem()); }
 
+        public void BeginBreak(Collider2D collider) { if (_effect == null) _effect = StartCoroutine(DestroyItem()); }
         private IEnumerator DestroyItem()
         {
             yield return StartCoroutine(BlinkEffect());

@@ -3678,7 +3678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 0}
-  _fade: {fileID: 0}
+  _fade: {fileID: 3275928318037108173, guid: 55addd13fca0d9c4b87ad5f8366efc00, type: 3}
   _ignore: []
   _onSceneOverlap:
     m_PersistentCalls:
