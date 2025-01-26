@@ -1,37 +1,23 @@
-using Player.Controller;
 using UnityEngine;
-using TMPro; //libreria para poder usar los TextMeshPro
+using TMPro;
 
-public class Timer : MonoBehaviour
+public class Timer : SingletonBasic<Timer>
 {
-    [SerializeField] private TextMeshProUGUI timer; //para el ui
-
-    [SerializeField] private Movement movement; //agarramos el script Movement del jugador para ver si se movio o no
-    private float elapsedTime = 0f;
-    [SerializeField] private bool isCounting = false;
+    [SerializeField] private TextMeshProUGUI _timer;
+    public bool HasStarted { private get; set; }
+    private float _elapsedTime = 0f;
 
     private void Update()
     {
-        if (!isCounting && movement.HasStartedMoving)
-        {
-            isCounting = true;
-        }
-
-        if (isCounting)
-        {
-            elapsedTime += Time.deltaTime;
-
-            changeTimer();
-        }
+        if (!HasStarted) return;
+        _elapsedTime += Time.deltaTime;
+        changeTimer();
     }
-
-    private void changeTimer() //funcion que ve lo el tiempo
+    private void changeTimer()
     {
-        int minutes = Mathf.FloorToInt(elapsedTime / 60f);
-        int seconds = Mathf.FloorToInt(elapsedTime % 60f);
-        int milliseconds = Mathf.FloorToInt((elapsedTime * 1000f) % 1000f);
-        timer.text = $"{minutes:00}:{seconds:00}:{milliseconds:00}";
+        int minutes = Mathf.FloorToInt(_elapsedTime / 60f);
+        int seconds = Mathf.FloorToInt(_elapsedTime % 60f);
+        int milliseconds = Mathf.FloorToInt((_elapsedTime * 1000f) % 1000f);
+        _timer.text = $"{minutes:00}:{seconds:00}:{milliseconds:00}";
     }
-
-
 }

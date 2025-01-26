@@ -12,15 +12,12 @@ namespace Player.Controller
         private Character2D _character;
         private Vector2 _input;
 
-        public bool HasStartedMoving { get; private set; }
-
         private void Awake() => _character = GetComponent<Character2D>();
-        private void Start() => Time.timeScale = 0;
         private void OnMove(InputValue value)
         {
             _input = value.Get<Vector2>();
             _character.animator.SetFloat("Speed", _input.x);
-            if (!HasStartedMoving && _input.x != 0) { HasStartedMoving = true; Time.timeScale = 1; }
+            Timer.Instance.HasStarted = true;
         }
 
         private void FixedUpdate()
@@ -35,15 +32,6 @@ namespace Player.Controller
 
             //aplicacion de fuerza
             if (_input.x != 0) _character.body.AddForce(movement * Vector2.right, ForceMode2D.Force);
-        }
-
-        private void OnTriggerEnter2D(Collider2D collision)
-        {
-            if (collision.CompareTag("Finish"))
-            {
-                Timer timer = FindObjectOfType<Timer>(); 
-                timer.enabled = false; //desactiva el temporizador, trate de hacer que se desactivara con una funcion re piola pero fracase x-x
-            }
         }
     }
 }

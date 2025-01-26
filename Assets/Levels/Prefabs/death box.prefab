@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 780061324265485394}
   - component: {fileID: 3263342947784121430}
   - component: {fileID: 7970465725959589436}
+  - component: {fileID: 2031394213869228099}
   - component: {fileID: 5935322288510920285}
   m_Layer: 0
   m_Name: death box
@@ -78,7 +79,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 100, y: 3}
+  m_Size: {x: 25, y: 3}
   m_EdgeRadius: 0
 --- !u!114 &7970465725959589436
 MonoBehaviour:
@@ -100,6 +101,37 @@ MonoBehaviour:
       - m_Target: {fileID: 5935322288510920285}
         m_TargetAssemblyTypeName: UnityEngine.SceneManagement.SceneLoader, Assembly-CSharp
         m_MethodName: CurrentLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2031394213869228099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3505301833250459769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b17b824825b4b4d93b68690a359ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _defaultTime: 1
+  _onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  _onComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5935322288510920285}
+        m_TargetAssemblyTypeName: UnityEngine.SceneManagement.SceneLoader, Assembly-CSharp
+        m_MethodName: SwipeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
