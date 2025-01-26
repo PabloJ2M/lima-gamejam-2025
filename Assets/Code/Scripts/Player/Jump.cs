@@ -1,11 +1,13 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Player.Controller
 {
     public class Jump : MonoBehaviour
     {
         [SerializeField] private float _force, _coyoteTime = 0.2f;
-        
+        [SerializeField] private UnityEvent _onDoubleJump;
+
         [Header("Detection")]
         [SerializeField] private LayerMask _groundMask;
         [SerializeField, Range(0, 2)] private float _size = 0.5f, _distance = 1;
@@ -30,7 +32,7 @@ namespace Player.Controller
 
             _character.body.velocityY = 0;
             _character.body.AddForce(_force * Vector2.up, ForceMode2D.Impulse);
-            if (!_isGrounded && !_coyoteJump) _secondJump = false;
+            if (!_isGrounded && !_coyoteJump) { _onDoubleJump.Invoke(); _secondJump = false; }
         }
     }
 }
