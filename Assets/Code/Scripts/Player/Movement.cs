@@ -31,7 +31,7 @@ namespace Player.Controller
             float movement = speedDif * _accelRate;
 
             //cambio de direccion
-            if (_input.x != 0) transform.localScale = new Vector3(_input.x, 1, 1);
+            if (_input.x != 0) transform.localScale = new Vector3(_input.x > 0 ? 1 : -1, 1, 1);
 
             //aplicacion de fuerza
             if (_input.x != 0) _character.body.AddForce(movement * Vector2.right, ForceMode2D.Force);

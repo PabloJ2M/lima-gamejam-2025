@@ -133,7 +133,7 @@ AnimationClip:
   - time: 0
     functionName: PlayOnShot
     data: 
-    objectReferenceParameter: {fileID: 8300000, guid: 50df32f359733f443ad410226523413f, type: 3}
+    objectReferenceParameter: {fileID: 8300000, guid: 427b7995737cb0c4f94073954a918a7e, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
