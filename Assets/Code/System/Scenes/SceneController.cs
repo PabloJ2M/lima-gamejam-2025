@@ -47,6 +47,7 @@ namespace UnityEngine.SceneManagement
             void onUpdate(float value) { if (_source) _source.volume = 1 - value; }
             void onComplete()
             {
+                Time.timeScale = 1;
                 if (string.IsNullOrEmpty(value)) Application.Quit();
                 else SceneManager.LoadSceneAsync(value, LoadSceneMode.Single);
             }

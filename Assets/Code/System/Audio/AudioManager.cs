@@ -8,7 +8,7 @@ namespace UnityEngine.Audio
 
         public readonly string[] parameters = { "Music", "Effects" };
 
-        protected override void Awake() { base.Awake(); _effects = GetComponent<AudioSource>(); _mixer = _effects.outputAudioMixerGroup.audioMixer; }
+        protected override void Awake() { base.Awake(); _mixer = _effects.outputAudioMixerGroup.audioMixer; }
         private void Start() { foreach (var item in parameters) SetMixerValue(item, PlayerPrefs.GetFloat(item, 0.5f)); }
         public void SetMixerValue(string name, float value) => _mixer.SetFloat(name, Mathf.Log10(value) * 20f);
         public void PlayOneShot(AudioClip clip)

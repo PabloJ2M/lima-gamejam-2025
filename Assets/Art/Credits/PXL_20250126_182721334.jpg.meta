@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5525d127412709b449217545dbb9065a
+guid: 2bdf2c53acf2f5d48b3ab5a0c341b3a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7401418533340811972
-    second: IMG-20250126-WA0000_0
+      213: 5960555732204468425
+    second: PXL_20250126_182721334_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,56 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG-20250126-WA0000_0
+      name: PXL_20250126_182721334_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 899
-        height: 1599
+        width: 3072
+        height: 4080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3d6a3eee01e84990800000000000000
-      internalID: -7401418533340811972
+      spriteID: 9c837f9abd528b250800000000000000
+      internalID: 5960555732204468425
       vertices: []
       indices: 
       edges: []
@@ -130,7 +169,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PXL_20250126_182721334_0: 5960555732204468425
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

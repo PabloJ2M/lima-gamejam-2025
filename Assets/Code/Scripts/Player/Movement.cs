@@ -18,7 +18,7 @@ namespace Player.Controller
             if (!_character.IsEnabled) return;
 
             _input = value.Get<Vector2>();
-            _character.animator.SetFloat("Speed", _input.x);
+            _character.animator.SetFloat("Speed", Mathf.Abs(_input.x));
             Timer.Instance.HasStarted = true;
         }
 

@@ -17,6 +17,7 @@ public class FinalAnimation : MonoBehaviour
 
         _character.IsEnabled = false;
         _character.body.velocity = Vector2.zero;
+        _character.body.isKinematic = true;
     }
     private void SuccessAnimation() => _character.animator.SetTrigger("Victory");
     private IEnumerator DeathAnimation()

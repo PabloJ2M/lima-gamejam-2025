@@ -18,12 +18,11 @@ namespace UnityEngine.SceneManagement
             _change = onComplete != null;
             _canvasGroup.alpha = _alpha = _change ? 0 : 1;
             if (_change) FadeIn(); else FadeOut();
-            print(_change);
         }
         protected override void OnUpdate(float value) { base.OnUpdate(value); onUpdate?.Invoke(value); _canvasGroup.alpha = value; }
         protected override void OnComplete()
         {
-            if (!_change) Destroy(gameObject); print("destroy");
+            if (!_change) Destroy(gameObject);
             onComplete?.Invoke();
             base.OnComplete();
         }
