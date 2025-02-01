@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Levels/Scenes/chatIA.unity
     guid: c4531790ec782b745a542eecd698d996
   - enabled: 1
+    path: Assets/Levels/Scenes/gameMode.unity
+    guid: 16e505a83a80c9640bf6f1454a7e9e11
+  - enabled: 1
     path: Assets/Levels/Scenes/credits.unity
     guid: 548a1e2539362674f85603ec57eff9c2
   - enabled: 1
@@ -47,5 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/nivel9.unity
     guid: d682f0dd4496dfd4884703d47d66eeed
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 0b0aa9243117fb34281dbcae71fc8683, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: e33d87cc623dd5e4eadfbe7c204cdc83, type: 2}
   m_UseUCBPForAssetBundles: 0

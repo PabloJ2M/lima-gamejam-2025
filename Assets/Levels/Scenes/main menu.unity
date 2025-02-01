@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 885306d1cd598224893aa08bac542fa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scenePath: Assets/Levels/Scenes/intro.unity
+  _scenePath: Assets/Levels/Scenes/gameMode.unity
 --- !u!114 &482913468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2374,7 +2374,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2116000223
 RectTransform:
   m_ObjectHideFlags: 0
