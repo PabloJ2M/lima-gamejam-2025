@@ -1,5 +1,4 @@
 using UnityEngine;
-using static UnityEngine.Rendering.ProbeAdjustmentVolume;
 
 public class Character2D : MonoBehaviour
 {

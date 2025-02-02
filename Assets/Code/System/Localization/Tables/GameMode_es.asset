@@ -30,6 +30,10 @@ MonoBehaviour:
     m_Localized: PROXIMAMENTE
     m_Metadata:
       m_Items: []
+  - m_Id: 333865072746496
+    m_Localized: "\xBFA QU\xC9 ZONA IR\xC1S?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
