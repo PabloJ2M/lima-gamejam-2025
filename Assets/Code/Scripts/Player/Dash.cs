@@ -13,7 +13,7 @@ namespace Player.Controller
         {
             if (!_character.IsEnabled) return;
 
-            _character.body.velocityY = 0;
+            _character.body.linearVelocityY = 0;
             _character.body.AddForce(new Vector2(transform.localScale.x, 1) * _force, ForceMode2D.Impulse);
         }
     }

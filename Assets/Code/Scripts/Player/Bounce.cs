@@ -10,7 +10,7 @@ namespace Player.Controller
         private Vector2 _lastVelocity;
 
         private void Awake() => _body = GetComponent<Rigidbody2D>();
-        private void LateUpdate() => _lastVelocity = _body.velocity.normalized;
+        private void LateUpdate() => _lastVelocity = _body.linearVelocity.normalized;
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
@@ -18,7 +18,7 @@ namespace Player.Controller
             Vector2 normal = collision.contacts[0].normal;
 
             _body.AddForce(normal * _force * _lastVelocity.magnitude, ForceMode2D.Impulse);
-            _body.velocity = Vector2.ClampMagnitude(_body.velocity, _force);
+            _body.linearVelocity = Vector2.ClampMagnitude(_body.linearVelocity, _force);
         }
     }
 }

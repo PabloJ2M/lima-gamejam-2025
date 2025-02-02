@@ -28,7 +28,7 @@ namespace Player.Controller
 
             //calculo de movimiento
             float targetSpeed = _input.x * _speed;
-            float speedDif = targetSpeed - _character.body.velocity.x;
+            float speedDif = targetSpeed - _character.body.linearVelocity.x;
             float movement = speedDif * _accelRate;
 
             //cambio de direccion
