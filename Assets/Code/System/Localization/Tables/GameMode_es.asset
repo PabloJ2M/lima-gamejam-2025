@@ -27,11 +27,23 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 205438083072
-    m_Localized: PROXIMAMENTE
+    m_Localized: EDITOR DE NIVEL
     m_Metadata:
       m_Items: []
   - m_Id: 333865072746496
     m_Localized: "\xBFA QU\xC9 ZONA IR\xC1S?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3502941957808128
+    m_Localized: NIVELES DE COMUNIDAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3503224913944576
+    m_Localized: NIVELES GUARDADOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3503353498722304
+    m_Localized: CREAR NIVEL
     m_Metadata:
       m_Items: []
   references:
