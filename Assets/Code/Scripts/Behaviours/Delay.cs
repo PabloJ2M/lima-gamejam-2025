@@ -16,7 +16,7 @@ namespace Events.Interact
 
         public void Play() => StartCoroutine(Timer(_current));
         public void Play(float value = 1) { _current = value; Stop(); Play(); }
-        public void PlatDefault() => Play(_defaultTime);
+        public void PlatDefault() => StartCoroutine(Timer(_defaultTime));
         public void Stop() { StopAllCoroutines(); _isPlaying = false; }
 
         private IEnumerator Timer(float time)
