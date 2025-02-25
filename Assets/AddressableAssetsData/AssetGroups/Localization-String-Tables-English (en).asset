@@ -13,16 +13,8 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-English (en)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-English (en)
-  m_Data:
-    m_SerializedData: []
   m_GUID: 48290ac52be6cc94daeb501818fbd3fc
   m_SerializeEntries:
-  - m_GUID: e47632a7ff3c4ca49948b5339c6eda1a
-    m_Address: Settings_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7bf27ec2b672c4b488e16936b04b1931
     m_Address: RenchoChat_en
     m_ReadOnly: 1
@@ -31,6 +23,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 907f497cd6767804390f0b6a42a4f657
     m_Address: GameMode_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e47632a7ff3c4ca49948b5339c6eda1a
+    m_Address: Settings_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

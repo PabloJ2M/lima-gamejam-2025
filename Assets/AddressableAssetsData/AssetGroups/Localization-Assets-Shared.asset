@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Localization-Assets-Shared
   m_EditorClassIdentifier: 
   m_GroupName: Localization-Assets-Shared
-  m_Data:
-    m_SerializedData: []
   m_GUID: 79f311c6c2f0482489761269fc02518d
   m_SerializeEntries:
   - m_GUID: 170629a44fb0d7047a15af1c58e8155a
@@ -22,13 +20,13 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8f74ca0f64348d440b68041b2fbc97ea
-    m_Address: Assets/Code/System/Localization/Tables/RenchoChat Shared Data.asset
+  - m_GUID: 782f1e54e44e68a4f9b03e1d2af34bc9
+    m_Address: Assets/Code/System/Localization/Tables/GameMode Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 782f1e54e44e68a4f9b03e1d2af34bc9
-    m_Address: Assets/Code/System/Localization/Tables/GameMode Shared Data.asset
+  - m_GUID: 8f74ca0f64348d440b68041b2fbc97ea
+    m_Address: Assets/Code/System/Localization/Tables/RenchoChat Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
