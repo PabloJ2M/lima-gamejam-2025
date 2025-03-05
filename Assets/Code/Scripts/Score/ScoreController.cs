@@ -1,15 +1,14 @@
 using UnityEngine;
 using TMPro;
-using static UnityEditor.AddressableAssets.Build.Layout.BuildLayout;
 
 public class ScoreController : MonoBehaviour
 {
-    [SerializeField] private int currentScore = 0;
+    public int currentScore = 0;
     [SerializeField] TextMeshProUGUI scoreText;
+    [SerializeField] bool isTwoPlayer = false;
 
     void Awake()
     {
-        
         UpdateScoreText();
     }
 
@@ -28,6 +27,7 @@ public class ScoreController : MonoBehaviour
 
     void UpdateScoreText()
     {
-        scoreText.text = "1P - " + currentScore.ToString();
+        string playerPrefix = isTwoPlayer ? "2P - " : "1P - ";
+        scoreText.text = playerPrefix + currentScore.ToString();
     }
 }
