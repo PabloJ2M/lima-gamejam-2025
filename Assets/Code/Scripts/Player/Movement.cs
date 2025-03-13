@@ -19,7 +19,6 @@ namespace Player.Controller
 
             _input = value.Get<Vector2>();
             _character.animator.SetFloat("Speed", Mathf.Abs(_input.x));
-            Timer.Instance.HasStarted = true;
         }
 
         private void FixedUpdate()
