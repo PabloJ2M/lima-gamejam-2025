@@ -561,6 +561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31aa941857fb9f5419d7b2b3e6b43225, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _input: {fileID: 0}
   _timer: {fileID: 816705863}
 --- !u!114 &732327501
 MonoBehaviour:
@@ -575,17 +576,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cText: {fileID: 1461476343}
---- !u!114 &797588495 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1352795495821108906, guid: 31592d0e679928d45b7800403fee3dec, type: 3}
-  m_PrefabInstance: {fileID: 1092206373}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13bad35db7f73224a8e17d6dcacaac0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &816705861
 GameObject:
   m_ObjectHideFlags: 0
@@ -3934,10 +3924,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: death box
       objectReference: {fileID: 0}
-    - target: {fileID: 7970465725959589436, guid: 026fb88db9d84204881f48cc1319f7c2, type: 3}
-      propertyPath: _onCollide.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 797588495}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

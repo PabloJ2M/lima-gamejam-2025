@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _tag: Player
-  _interaction: 0
+  _interaction: 1
   _onCollide:
     m_PersistentCalls:
       m_Calls:
@@ -180,6 +180,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _onCollideEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  _onCollideExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &4651515257490699871
 MonoBehaviour:
   m_ObjectHideFlags: 0

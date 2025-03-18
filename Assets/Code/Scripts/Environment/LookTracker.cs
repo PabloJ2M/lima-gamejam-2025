@@ -3,13 +3,13 @@ using UnityEngine;
 
 namespace Environment
 {
-    [RequireComponent(typeof(CircleCollider2D), typeof(Raycast))]
+    [SelectionBase] [RequireComponent(typeof(CircleCollider2D), typeof(Raycast))]
     public class LookTracker : MonoBehaviour
     {
         [SerializeField] private Transform _look;
+        [SerializeField] private string _tag = "Player";
         [SerializeField] private float _speed, _maxDistance;
 
-        private const string _tag = "Player";
         private CircleCollider2D _area;
         private Collider2D _player;
         private Raycast _ray;

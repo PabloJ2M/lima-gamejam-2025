@@ -2055,6 +2055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31aa941857fb9f5419d7b2b3e6b43225, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _input: {fileID: 0}
   _timer: {fileID: 1700806288}
 --- !u!1001 &1186985831
 PrefabInstance:
@@ -3028,10 +3029,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: death box
       objectReference: {fileID: 0}
-    - target: {fileID: 7970465725959589436, guid: 026fb88db9d84204881f48cc1319f7c2, type: 3}
-      propertyPath: _onCollide.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 2122321834}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4716,17 +4713,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31592d0e679928d45b7800403fee3dec, type: 3}
---- !u!114 &2122321834 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1352795495821108906, guid: 31592d0e679928d45b7800403fee3dec, type: 3}
-  m_PrefabInstance: {fileID: 2122321833}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13bad35db7f73224a8e17d6dcacaac0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2122321845 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 98070721351604555, guid: 31592d0e679928d45b7800403fee3dec, type: 3}
@@ -4745,8 +4731,8 @@ SceneRoots:
   - {fileID: 1156215694}
   - {fileID: 862847623}
   - {fileID: 1935340295}
-  - {fileID: 728942897}
   - {fileID: 1788402065}
+  - {fileID: 728942897}
   - {fileID: 2122321833}
   - {fileID: 187172907}
   - {fileID: 1186985831}

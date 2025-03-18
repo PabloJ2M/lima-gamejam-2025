@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 892941318923585274}
   - component: {fileID: 1443840462230994352}
   - component: {fileID: 701676744827281107}
+  - component: {fileID: 8339924750229981188}
   - component: {fileID: 8804242929692452356}
   - component: {fileID: 6600550020824445795}
   m_Layer: 0
@@ -277,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _tag: Player
-  _interaction: 0
+  _interaction: 1
   _onCollide:
     m_PersistentCalls:
       m_Calls:
@@ -293,9 +294,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DeathAudio, Assembly-CSharp
-        m_MethodName: DeathMessage
+      - m_Target: {fileID: 8339924750229981188}
+        m_TargetAssemblyTypeName: ExternalKill, Assembly-CSharp
+        m_MethodName: OnDeath
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -305,6 +306,24 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _onCollideEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  _onCollideExit:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8339924750229981188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5703825099720260036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9226a54ae5105454eba2ae675adcb41b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &8804242929692452356
 MonoBehaviour:
   m_ObjectHideFlags: 0

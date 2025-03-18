@@ -17,12 +17,12 @@ public class FinalAnimation : MonoBehaviour
 
         _character.IsEnabled = false;
         _character.body.linearVelocity = Vector2.zero;
-        _character.body.isKinematic = true;
     }
     private void SuccessAnimation() => _character.animator.SetTrigger("Victory");
     private IEnumerator DeathAnimation()
     {
         float t = 0;
+        _character.body.bodyType = RigidbodyType2D.Kinematic;
         _character.animator.SetTrigger("Death");
         Vector2 point = _character.body.position;
 

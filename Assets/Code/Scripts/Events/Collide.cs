@@ -12,12 +12,14 @@ namespace UnityEngine.Events
 
         protected void OnCollideEnter(Collider2D collision)
         {
+            if (!collision.CompareTag(_tag)) return;
             if (!_interaction.HasFlag(Interaction.Enter)) return;
             _onCollide.Invoke(collision);
             _onCollideEnter.Invoke(collision);
         }
         protected void OnCollideExit(Collider2D collision)
         {
+            if (!collision.CompareTag(_tag)) return;
             if (!_interaction.HasFlag(Interaction.Exit)) return;
             _onCollide.Invoke(collision);
             _onCollideExit.Invoke(collision);
