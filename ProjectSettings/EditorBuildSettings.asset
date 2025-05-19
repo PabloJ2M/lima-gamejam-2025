@@ -24,31 +24,31 @@ EditorBuildSettings:
     path: Assets/Levels/Scenes/intro.unity
     guid: b8612486ee144c0468cfd701f6d04d94
   - enabled: 1
-    path: Assets/Scene/nivel1.unity
+    path: Assets/SceneLevels/nivel1.unity
     guid: e94bfd4dd7703a3468870be2c0e5f079
   - enabled: 1
-    path: Assets/Scene/nivel2.unity
+    path: Assets/SceneLevels/nivel2.unity
     guid: 2dcde1efcf1af4f4da9f8a6b00015505
   - enabled: 1
-    path: Assets/Scene/nivel3.unity
+    path: Assets/SceneLevels/nivel3.unity
     guid: 74be6161fe6aeaa4590f7bdef9bd17eb
   - enabled: 1
-    path: Assets/Scene/nivel4.unity
+    path: Assets/SceneLevels/nivel4.unity
     guid: f81aeb565d72e6c498c5f2d4ab6cc6ce
   - enabled: 1
-    path: Assets/Scene/nivel5.unity
+    path: Assets/SceneLevels/nivel5.unity
     guid: 69cc04b8658f57341bdddea72f9409d6
   - enabled: 1
-    path: Assets/Scene/nivel6.unity
+    path: Assets/SceneLevels/nivel6.unity
     guid: efa5049a5f24fd3459394485b6f8908c
   - enabled: 1
-    path: Assets/Scene/nivel7.unity
+    path: Assets/SceneLevels/nivel7.unity
     guid: 42eb979f11ceeb24e9c6dc78b3970a8e
   - enabled: 1
-    path: Assets/Scene/nivel8.unity
+    path: Assets/SceneLevels/nivel8.unity
     guid: fc9ed96e30582d64a9c834203bb795e9
   - enabled: 1
-    path: Assets/Scene/nivel9.unity
+    path: Assets/SceneLevels/nivel9.unity
     guid: d682f0dd4496dfd4884703d47d66eeed
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 0b0aa9243117fb34281dbcae71fc8683, type: 2}

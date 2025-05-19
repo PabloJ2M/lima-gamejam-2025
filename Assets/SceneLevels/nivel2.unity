@@ -267,8 +267,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 00:00:00
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e52c48b1afb35fd4392e6c8a41ca01de, type: 2}
-  m_sharedMaterial: {fileID: 5936772253056381211, guid: e52c48b1afb35fd4392e6c8a41ca01de, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e45ecda539918274ca75cab699a4526e, type: 2}
+  m_sharedMaterial: {fileID: -4301654611162684815, guid: e45ecda539918274ca75cab699a4526e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2216,7 +2216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31aa941857fb9f5419d7b2b3e6b43225, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _input: {fileID: 0}
+  _input: {fileID: -1127495260878920253, guid: 58752e44173ba7d4ca31db0380dc5109, type: 3}
   _timer: {fileID: 266842151}
 --- !u!1001 &914972327
 PrefabInstance:
@@ -2494,8 +2494,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e52c48b1afb35fd4392e6c8a41ca01de, type: 2}
-  m_sharedMaterial: {fileID: 5936772253056381211, guid: e52c48b1afb35fd4392e6c8a41ca01de, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e45ecda539918274ca75cab699a4526e, type: 2}
+  m_sharedMaterial: {fileID: -4301654611162684815, guid: e45ecda539918274ca75cab699a4526e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
