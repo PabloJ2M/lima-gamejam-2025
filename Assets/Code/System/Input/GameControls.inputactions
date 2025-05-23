@@ -7,27 +7,27 @@
             "actions": [
                 {
                     "name": "Move",
-                    "type": "PassThrough",
+                    "type": "Value",
                     "id": "890632e2-72d6-49d2-9c88-2970da168d93",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Jump",
-                    "type": "PassThrough",
+                    "type": "Button",
                     "id": "faf37915-c811-4e48-bfa6-97682b1a6afd",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "Press",
                     "initialStateCheck": false
                 },
                 {
                     "name": "Dash",
-                    "type": "PassThrough",
+                    "type": "Button",
                     "id": "82f0f939-effa-48e2-ab6d-d147e7ef01a9",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "Press",
                     "initialStateCheck": false
@@ -168,6 +168,28 @@
                 },
                 {
                     "name": "",
+                    "id": "ee23bb1e-7f88-403e-8a0b-754742facbca",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca5bbe9f-982a-4c0d-aea0-23cb6e8ca657",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "e1b3af8a-d0f1-4b62-a5e1-dd840555bdfb",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -192,6 +214,28 @@
                     "name": "",
                     "id": "2bfe1f3b-57e8-431e-ae2f-67d0c65db631",
                     "path": "<HID::ShanWan USB WirelessGamepad >/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "664f843e-f691-4a68-a0df-250ce17ee7c4",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "57a50eee-58c9-47dd-b857-a9669144198e",
+                    "path": "<Gamepad>/dpad/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

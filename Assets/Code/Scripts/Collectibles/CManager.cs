@@ -1,34 +1,26 @@
 using UnityEngine;
-using TMPro;
 using UnityEngine.Localization.Settings;
+using TMPro;
 
 public class CManager : SingletonBasic<CManager>
 {
     [SerializeField] private TextMeshProUGUI cText;
-    private int _count;
+    public static int count;
+    public static int collected;
+
+    protected override void Awake() { base.Awake(); collected = 0; }
 
     private void Start()
     {
         string currentLanguage = LocalizationSettings.SelectedLocale.Identifier.Code;
 
-        if (currentLanguage == "es")
+        switch (currentLanguage)
         {
-            showMessage($"Tienes: {_count} Colecionables");
+            case "es": showMessage($"Tienes: {count} Colecionables"); break;
+            case "en": showMessage($"You have: {count} Collectibles"); break;
         }
-        else if (currentLanguage == "en") // Inglés
-        {
-            showMessage($"You have: {_count} Collectibles");
-        }
-        
-    }
-    public void collectCollectible()
-    {
-        _count++;
-        Start();
     }
 
-    private void showMessage(string message)
-    {
-        cText.text = message;
-    }
+    private void showMessage(string message) => cText.SetText(message);
+    public void collectCollectible() { collected++; count++; Start(); }
 }

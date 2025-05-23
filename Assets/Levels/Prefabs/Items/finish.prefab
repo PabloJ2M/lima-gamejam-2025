@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5744899460816290434}
   - component: {fileID: 8612179228755643184}
   - component: {fileID: 5917591414370728766}
+  - component: {fileID: 1020493548258093619}
   - component: {fileID: 7923424650351419717}
   - component: {fileID: 3529462711880336710}
   m_Layer: 0
@@ -177,6 +178,18 @@ MonoBehaviour:
   _onCollide:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1020493548258093619}
+        m_TargetAssemblyTypeName: CompleteTimer, Assembly-CSharp
+        m_MethodName: OnCompleteTime
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 7923424650351419717}
         m_TargetAssemblyTypeName: Events.Interact.Delay, Assembly-CSharp
         m_MethodName: PlatDefault
@@ -195,6 +208,18 @@ MonoBehaviour:
   _onCollideExit:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1020493548258093619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6633636288506788060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4dc801c6816781408114a55e63d6120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7923424650351419717
 MonoBehaviour:
   m_ObjectHideFlags: 0

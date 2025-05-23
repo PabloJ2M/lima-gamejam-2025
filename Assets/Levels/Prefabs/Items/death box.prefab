@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 780061324265485394}
   - component: {fileID: 3263342947784121430}
   - component: {fileID: 7970465725959589436}
+  - component: {fileID: 601451338316833896}
   - component: {fileID: 9044108822725524741}
   - component: {fileID: 2031394213869228099}
   - component: {fileID: 5935322288510920285}
@@ -99,9 +100,9 @@ MonoBehaviour:
   _onCollide:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2031394213869228099}
-        m_TargetAssemblyTypeName: Events.Interact.Delay, Assembly-CSharp
-        m_MethodName: PlatDefault
+      - m_Target: {fileID: 601451338316833896}
+        m_TargetAssemblyTypeName: RestCount, Assembly-CSharp
+        m_MethodName: RemoveCount
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -123,12 +124,36 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2031394213869228099}
+        m_TargetAssemblyTypeName: Events.Interact.Delay, Assembly-CSharp
+        m_MethodName: PlatDefault
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _onCollideEnter:
     m_PersistentCalls:
       m_Calls: []
   _onCollideExit:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &601451338316833896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3505301833250459769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5688c6c218583248986a39fa8c5a0e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &9044108822725524741
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -197,7 +197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300996958236289628, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: _scenePath
-      value: Assets/Scene/nivel2.unity
+      value: Assets/SceneLevels/nivel2.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5397581604819843702, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: m_text
@@ -488,7 +488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300996958236289628, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: _scenePath
-      value: Assets/Scene/nivel4.unity
+      value: Assets/SceneLevels/nivel4.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5397581604819843702, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: m_text
@@ -1504,7 +1504,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 106.05
+  m_fontSize: 125
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1974,7 +1974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300996958236289628, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: _scenePath
-      value: Assets/Scene/nivel6.unity
+      value: Assets/SceneLevels/nivel6.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5397581604819843702, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: m_text
@@ -2083,7 +2083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300996958236289628, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: _scenePath
-      value: Assets/Scene/nivel7.unity
+      value: Assets/SceneLevels/nivel7.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5397581604819843702, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: m_text
@@ -3020,12 +3020,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!114 &1180910555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4088,7 +4088,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 92.3
+  m_fontSize: 125
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4154,7 +4154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300996958236289628, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: _scenePath
-      value: Assets/Scene/nivel8.unity
+      value: Assets/SceneLevels/nivel8.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5397581604819843702, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: m_text
@@ -4263,7 +4263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300996958236289628, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: _scenePath
-      value: Assets/Scene/nivel9.unity
+      value: Assets/SceneLevels/nivel9.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5397581604819843702, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: m_text
@@ -4563,7 +4563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300996958236289628, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: _scenePath
-      value: Assets/Scene/nivel5.unity
+      value: Assets/SceneLevels/nivel5.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5397581604819843702, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: m_text
@@ -5313,7 +5313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300996958236289628, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: _scenePath
-      value: Assets/Scene/nivel3.unity
+      value: Assets/SceneLevels/nivel3.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5397581604819843702, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: m_text
@@ -6043,7 +6043,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300996958236289628, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: _scenePath
-      value: Assets/Scene/nivel1.unity
+      value: Assets/SceneLevels/nivel1.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5397581604819843702, guid: 175109d2f6c98694da75e078e7b64b7e, type: 3}
       propertyPath: m_fontSize
