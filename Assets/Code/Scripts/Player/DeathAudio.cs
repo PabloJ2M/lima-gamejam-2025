@@ -15,16 +15,15 @@ public class DeathAudio : MonoBehaviour
 
     public void DeathMessage()
     {
-        if (enable)
-        {
-            if (deathSounds.Length > 0)
-            {
-                AudioClip selectedClip = deathSounds[Random.Range(0, deathSounds.Length)];
-                audioSource.PlayOneShot(selectedClip);
+        //if (enable)
+        //{
+        //    if (deathSounds.Length > 0)
+        //    {
+        //        AudioClip selectedClip = deathSounds[Random.Range(0, deathSounds.Length)];
+        //        audioSource.PlayOneShot(selectedClip);
 
-                enable = false;
-            }
-        }
-
+        //        enable = false;
+        //    }
+        //}
     }
 }
